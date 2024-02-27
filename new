@@ -1,0 +1,40 @@
+sadiqhussain Added 12345
+I am added some new commands to this file 
+Plz save this copy by zain branch
+GIT: 
+ 
+git init - to initialaize the repo it converts a directory into a repository 
+git status - it shows the state of the file and repository 
+git add . - it moves the code from workspace to staging area 
+git commit -m "<message>" - it helps to move the file from staging area to local repo 
+git log - it gives the commit id, details of the person who and when the commit has done. 
+git show <commit_id> - shows the content of the code. 
+git remote add origin <git_url> - it connects the local repo to central repo 
+git push -u origin master - it push the code to the central repo 
+git pull -u origin master - it pulls the code from central repo 
+git add .gitignore - this helps to ignore specific files from the workspace 
+git log --oneline - it gives  the log o/p in one line. 
+git branch <branch_name> - creates a new branch 
+git branch - lists all the branches 
+git checkout <branch_name> - it switches to the diffrent branch 
+git branch -d <branch_name> - it deletes a branch 
+git merge <branch_name> - it merges two branches 
+git stash - to stash the file (stash will empty the workspace which allows u to work on other codes) 
+git stash list - gives list of all stash files 
+git stash apply stash@<{0}> - this command helps to retrive the file from stash to workspace 
+git stash clear - it clears all the files in stash space 
+git reset <filename> - it revert to workspace from staging area 
+git reset . - it reverts all the files to workspace from staging area 
+git reset --hard - it clears the file from both workspace and staging area parmanently 
+diff b/w git rest and gi revert - reset will work in case of before commit and revert will work in a case when u have already commit the code.  
+git revert <commit_id> - it reverts the commit 
+git clean -n - deletes all untracked files 
+git clean -f - deletes all untracked files forcefully 
+git tag -a <tag-name> -m <message> <commit> - it gives the tag to the commits 
+git tag  - lists all the tags 
+git show <tag_name> - list particular tag 
+git tag -d <tag_name> - to delete a tag 
+git clone <github repo URL> - it clones the repo from the remote to local machine. 
+we can genrate personal access token in github from settings> developer settings> personal access token
+
+
