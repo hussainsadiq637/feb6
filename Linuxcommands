@@ -6,3 +6,6 @@ git remote -v
 git push
 git pull
 git fetch
+git checkout -b
+git bracnch
+
