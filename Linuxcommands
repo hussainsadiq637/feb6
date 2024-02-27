@@ -7,5 +7,5 @@ git push
 git pull
 git fetch
 git checkout -b
-git bracnch
+git branch
 
