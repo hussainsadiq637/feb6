@@ -2,3 +2,4 @@ Hi I am adding the some linux commands
 
 here iam work on it
 git init
+git remote -v 
